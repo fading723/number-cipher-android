@@ -1,0 +1,17 @@
+{
+  "name": "number-grid-android-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local QA tools for the offline Android number-grid puzzle game",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "test": "node --test tests/engine.test.mjs",
+    "pretest:ui": "npm run build:web",
+    "test:ui": "node tests/ui-smoke.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.65.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "apk": "number-cipher-1.0.0-debug.apk",
+  "bytes": 82569,
+  "sha256": "a22ac527651195a418db2d5de8203d4d736a8c0b89577dfb9b065107f2fc4ba8",
+  "package": "cn.shuzhen.puzzle.debug",
+  "minimumSdk": 26,
+  "targetSdk": 36,
+  "permissions": [],
+  "allPackagedAssetsMatchSource": true,
+  "assetSha256": {
+    "assets/www/app.js": "5fbc51250b4906345d03c08daf3c50224b110c6bcf5d5ba8b9c14d730c9f9ea3",
+    "assets/www/engine.js": "7e7932f1d947b609d194688c317639b53a86a9ce021a58203e434ddf4e82b3a9",
+    "assets/www/game.bundle.js": "5639c801db5dd6a468484ecee67b70c9b92eb352a8b8854a9c257fac5863305c",
+    "assets/www/index.html": "a61e4d14bf5a05c37d14159109b9296a4927820dfdda8e68e10a79eecc7f9ef5",
+    "assets/www/levels.js": "92044259e4b5983a534009559ab45d508ba1879d7e8f6fd99e81af866c416426",
+    "assets/www/styles.css": "f7f6a8b1814c5cf14a129a6fa063ffcaf1f8ee311bde5111d612e42cfb044079"
+  },
+  "physicalDeviceOrEmulatorTested": false,
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-06",
+  "appVersion": "1.0.0",
+  "assetCount": 6,
+  "signatureVerification": {
+    "status": "passed",
+    "apkSignatureSchemeV2": true,
+    "signerCount": 1
+  },
+  "lintSummary": {
+    "errors": 0,
+    "warnings": 8,
+    "issueIds": {
+      "UnusedAttribute": 1,
+      "AndroidGradlePluginVersion": 1,
+      "LockedOrientationActivity": 1,
+      "DiscouragedApi": 1,
+      "SetJavaScriptEnabled": 1,
+      "DataExtractionRules": 1,
+      "ObsoleteSdkInt": 1,
+      "MonochromeLauncherIcon": 1
+    }
+  },
+  "publicationNote": "Public snapshot for the named debug APK. Local machine paths and raw build diagnostics are omitted."
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-11-06",
+  "appVersion": "1.0.0",
+  "status": "passed",
+  "environment": {
+    "browser": "Chrome 156",
+    "mobileTouchEmulation": true,
+    "physicalAndroidDeviceOrEmulatorTested": false,
+    "largeTextSimulation": "Computed font sizes scaled to 130%; not Android system text-zoom validation."
+  },
+  "summary": {
+    "checksPassed": 21,
+    "layoutSnapshots": 8,
+    "runtimeOrFailedRequestErrors": 0,
+    "horizontalOverflowFindings": 0,
+    "undersizedTouchTargetFindings": 0,
+    "minimumTouchTargetCssPixels": 44
+  },
+  "checks": [
+    "Home loads without a network dependency",
+    "Touch scrolling the level map does not accidentally open a level",
+    "Touch placement and undo",
+    "Candidate notes and erase",
+    "Reasoning hint does not reveal or fill an answer",
+    "Local saved progress survives reload",
+    "Duplicate number card protection",
+    "Occupied-cell swap and undo",
+    "Reset requires confirmation; cancellation preserves progress",
+    "Invalid-clue feedback and coordinate highlight",
+    "Help dialog and Android back routing",
+    "Agreed sample level 4 completes and advances to level 5",
+    "Tutorial completion opens success feedback",
+    "Next-level navigation and six-card tutorial layout",
+    "Challenge tier is reachable",
+    "320px screen with 130% text has no horizontal overflow",
+    "Challenge level 22 completes and advances to level 23",
+    "Final-level completion and persisted completion badge",
+    "Corrupt local save recovery",
+    "Unavailable storage warns while keeping the game playable",
+    "Touch drag followed immediately by a new selection and move"
+  ],
+  "layouts": [
+    {
+      "name": "home-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "normal-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "tutorial-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "success-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "tutorial-six-cards-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "challenge-360x800",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "scrollWidth": 360,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "challenge-320x800-large-text",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scrollWidth": 320,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    },
+    {
+      "name": "home-320x800-large-text",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "scrollWidth": 320,
+      "horizontalOverflowCount": 0,
+      "undersizedTouchTargetCount": 0
+    }
+  ],
+  "additionalValidation": {
+    "gestureSessionVariants": 4,
+    "keyboardDetailZeroActivation": "passed"
+  },
+  "publicationNote": "Public snapshot of the local test report. Event traces, timing/coordinate diagnostics, local paths and screenshot references are omitted."
+}
